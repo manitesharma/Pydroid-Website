@@ -445,6 +445,7 @@ background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, F
 .allnav:before{
     background-size: 300%;
     background-position: 0% 50%;
+    height: 100vh;
 }
 .introduction{
     height: 100vh;
