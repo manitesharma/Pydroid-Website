@@ -3,7 +3,7 @@ body{
     float: left;
     width: 100%;
     margin: 0px;
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|PT+Sans:400,700');
 /* meadia qury for desktop */  
@@ -407,11 +407,6 @@ background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, F
     width: 50%;
     margin: 0% 15%;
 }
-.logo-img{
-    float: left;
-    width: 70%;
-    margin: -7% 15%;
-}
 .nav-link-section{
     float: left;
     width: 60%;
@@ -446,6 +441,10 @@ background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, F
 .allnav{
     background-size: 250%;
     background-position: 70% 0%;
+}
+.allnav:before{
+    background-size: 300%;
+    background-position: 0% 50%;
 }
 .introduction{
     height: 100vh;
@@ -485,6 +484,15 @@ background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, F
     color: #1a1a1a;
     font-family: 'Noto Sans', sans-serif;
 }
+.list-item{
+    list-style: none;
+    color: #4c4c4c;
+    font-family: 'Noto Sans', sans-serif; 
+    }
+    .list-item > li{
+        font-size: 1em;
+        line-height: 1.5;
+    }
 .disc-text{
     float:left;
     width: 90%;
@@ -492,7 +500,7 @@ background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, F
     text-align: left;
 }
 .text{
-    font-size:1.8em;
+    font-size:2em;
     line-height: 1.5;
     color: #4c4c4c;
     font-family: 'Noto Sans', sans-serif; 
@@ -618,12 +626,12 @@ background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, F
 .team-profile{
     float: left;
     width: 48%;
-    margin:1%;
+    margin:8% 1%;
 }
 .profile-img{
     float: left;
-    width: 80%;
-    margin: 0% 10%;
+    width: 60%;
+    margin: 0% 20%;
     border-radius: 500px;
     filter: saturate(0%);
 }
@@ -635,7 +643,7 @@ background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, F
     width: 100%;
     float: left;
     text-align: center;
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: 400;
     margin: 1em 0em 0.2em;
 }
@@ -689,12 +697,18 @@ background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, F
 .custom-footer{
     float: left;
     width: 80%;
+    margin-top: 10%;
     padding: 4% 10% 2%;
 }
 .brand-logo{
     float: left;
     width: 50%;
     margin: 2% 0%;
+}
+.logo-img{
+    float: left;
+    width: 70%;
+    margin: 0% 0%;
 }
 .footer-content{
     float: left;
@@ -721,9 +735,9 @@ background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, F
 .footer-link{
     float: left;
     width: 60%;
-    margin: 0% 20%;
+    margin: 5% 20%;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 2em;
     text-decoration: none;
     color: #1a1919;
 }
